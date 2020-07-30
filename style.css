@@ -1,0 +1,52 @@
+
+p {
+    color: red;
+}
+
+div {
+    text-decoration: underline;
+}
+
+li {
+    font-size: 20px;
+    color: #ccc;
+    background: cadetblue;
+}
+
+#blue {
+    color: blue;
+}
+
+.brown {
+    color: brown;
+}
+
+li.brown {
+    text-decoration: underline;
+    background: coral;
+}
+
+#button {
+    text-decoration: none;
+    background: #555;
+    width: 150px;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background: #777;
+}
+
+#button:active {
+    background: #333;
+}
