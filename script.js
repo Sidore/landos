@@ -3,7 +3,7 @@ var button = document.getElementById("button");
 var input = document.getElementById("user");
 
 button.addEventListener("click", () => {
-    var value = input.value
+    var value = input.value;
     button.innerHTML = value;
 
     setTimeout(() => {
