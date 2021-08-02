@@ -28,7 +28,7 @@ li.brown {
 
 #button {
     text-decoration: none;
-    background: #555;
+    background: rgb(139, 250, 181);
     width: 150px;
     color: #eee;
     text-align: center;
@@ -44,9 +44,9 @@ li.brown {
 #button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    background: #777;
+    background: rgb(189, 35, 35);
 }
 
 #button:active {
-    background: #333;
+    background: rgb(59, 57, 170);
 }

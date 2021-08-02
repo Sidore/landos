@@ -7,11 +7,7 @@ button.addEventListener("click", () => {
     button.innerHTML = value;
 
     setTimeout(() => {
-        button.innerHTML = "grab text from input";
-    }, 2000)
+        button.innerHTML = "*****";
+    }, 3000)
 })
 
-$("#color").on("blur", () => {
-    var c = $("#color").val();
-    $("p").css("color",`${c}`)
-})
